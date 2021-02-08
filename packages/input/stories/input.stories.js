@@ -5,7 +5,7 @@ export default {
   component: LgInput
 }
 
-export const Text = () => ({
+export const Text = () => ({ // 是一个对象 加（）
   components: { LgInput },
   template: '<lg-input v-model="value"></lg-input>',
   data () {
